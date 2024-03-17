@@ -1,0 +1,114 @@
+.app_page {
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#light {
+    background-color: white;
+}
+
+
+
+#light .header {
+   background-color: white;
+}
+
+
+
+#light .header_icon {
+    color: black;
+}
+
+
+#light .sidebar {
+    background-color: white;
+    
+}
+
+
+
+#light .sidebarRow_icon {
+    color: black;
+}
+
+
+
+#light .sidebarRow_title {
+    color: black;
+}
+
+
+#light .home_Videos {
+    background-color: white;
+}
+
+
+
+#light .Video_Text > h4 {
+    color: black;
+}
+
+
+
+#light .Video_Card {
+    background-color: white;
+}
+
+
+
+#light .Video_Text > p {
+    color: #808080;
+}
+
+
+
+#light .Moviecarts {
+    background-color: white;
+}
+
+
+
+#light .blogs {
+    background-color: white;
+}
+
+
+
+.switch {
+    display: flex;
+    margin-left: 25px;
+    margin-top: -430px;
+    position: absolute;
+}
+
+
+#light .switch {
+    display: flex;
+    margin-left: 25px;
+    margin-top: -430px;
+}
+
+
+
+#light .react-switch-bg {
+    background-color: gray !important;
+}
+
+
+
+@media (max-width:480px) {
+
+    .switch {
+        margin-left: 18px;
+        margin-top: -699px;
+     }
+
+    #light .switch {
+        margin-left: 18px;
+        margin-top: -699px;
+    }
+}
+
